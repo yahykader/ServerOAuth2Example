@@ -10,6 +10,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class UserConfiguration extends GlobalAuthenticationConfigurerAdapter{
 	
 	PasswordEncoder passwordEncoder=PasswordEncoderFactories.createDelegatingPasswordEncoder();
+	
 	   @Override
 	public void init(AuthenticationManagerBuilder auth) throws Exception { 
 		   auth.inMemoryAuthentication()
