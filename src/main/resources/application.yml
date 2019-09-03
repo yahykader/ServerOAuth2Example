@@ -1,0 +1,21 @@
+server:
+  port: 8282
+#spring:
+#  security:
+#    user:
+#      name: yahyaoui
+ #     password: kader123
+  #    roles: ADMIN,USER  
+#security:
+ #   oauth2:
+  #    client:
+#            client-id: mobile
+#            client-secret: pin
+#            access-token-validity-seconds: 3600
+ #           scope: READ,WRITE
+ #           authorization-grant-type: refresh_token,authorization_code,password,client_credentials
+ #     authorization:
+ #           check-token-access: permitAll    
+            
+            
+              
